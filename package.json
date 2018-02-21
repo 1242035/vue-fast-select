@@ -1,6 +1,6 @@
 {
   "name": "vue-fast-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This can fast render large data to select of html tag",
   "main": "dist/vue-fast-select.js",
   "scripts": {

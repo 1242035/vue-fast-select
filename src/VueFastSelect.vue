@@ -66,6 +66,8 @@ export default {
   watch: {
     value (newValue) {
       if (!newValue) this.title = this.defaultText
+      this.$emit('change')
+      this.$emit('input', +newValue)
       this.insertOptions()
     },
     items (newValue) {
