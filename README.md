@@ -19,7 +19,7 @@ You can import in the vue file like what do you usally do.
 ``` html
 <template>
   <div>
-     <vue-fast-select v-if="isFastSelect" v-model="selectIndex" :items="items" key-field="id" value-field="name"></vue-fast-select>
+     <vue-fast-select v-model="selectIndex" :items="items" key-field="id" value-field="name"></vue-fast-select>
   </div>
 </template>
 
